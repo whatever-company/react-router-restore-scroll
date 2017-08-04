@@ -1,5 +1,6 @@
 import React from 'react'
 import { render } from 'react-dom'
+import createReactClass from 'create-react-class
 import { Router, Route, IndexRoute, browserHistory, Link } from 'react-router'
 import applyRouterMiddleware from 'react-router/lib/applyRouterMiddleware'
 import {
@@ -8,7 +9,7 @@ import {
   RestoreScroll
 } from 'react-router-restore-scroll'
 
-const App = React.createClass({
+const App = createReactClass({
   render() {
     return (
       <div style={{ fontFamily: 'sans-serif', fontWeight: '200' }}>
@@ -25,7 +26,7 @@ const App = React.createClass({
   }
 })
 
-const Index = React.createClass({
+const Index = createReacClass({
   render() {
     return (
       <div>
@@ -41,7 +42,7 @@ const Index = React.createClass({
   }
 })
 
-const Page = React.createClass({
+const Page = createReactClass({
   render() {
     const { page } = this.props.params
     return (

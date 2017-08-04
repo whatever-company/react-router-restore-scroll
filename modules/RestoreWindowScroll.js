@@ -1,10 +1,12 @@
 import React from 'react'
+import createReactClass from 'create-react-class'
+import PropTypes from 'prop-types'
 
-const RestoreWindowScroll = React.createClass({
+const RestoreWindowScroll = createReactClass({
 
   propTypes: {
-    restoreWindow: React.PropTypes.func.isRequired,
-    location: React.PropTypes.object.isRequired
+    restoreWindow: PropTypes.func.isRequired,
+    location: PropTypes.object.isRequired
   },
 
   componentDidMount() {
