@@ -66,7 +66,9 @@ const useHistoryRestoreScroll = (createHistory) => (
 
     const getScrollerPosition = (componentScrollKey) => {
       const locationPositions = positionsByLocation[currentScrollKey]
-      return locationPositions ? locationPositions[componentScrollKey] || null : null
+      const position = locationPositions? locationPositions[componentScrollKey] : null
+      
+      return position && position.scrollX !== undefined && position.scrollY !== undefined ? location : null
     }
 
     const saveScrollPositions = () => {
