@@ -1,6 +1,6 @@
 {
   "name": "@whatever/react-router-restore-scroll",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Scroll positions restoration for React Router",
   "main": "lib/index.js",
   "repository": {
