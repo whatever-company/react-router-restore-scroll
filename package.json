@@ -1,6 +1,6 @@
 {
   "name": "@whatever/react-router-restore-scroll",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Scroll positions restoration for React Router",
   "main": "lib/index.js",
   "repository": {
@@ -24,7 +24,7 @@
     "create-react-class": "^15.6.0",
     "history": "^2.1.1",
     "react": "*",
-    "react-router": "^2.4.0"
+    "react-router": "^2.8.0"
   },
   "devDependencies": {
     "babel-cli": "^6.6.5",
