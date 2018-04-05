@@ -1,5 +1,5 @@
 {
-  "name": "@whatever/react-router-restore-scroll",
+  "name": "@eliumhq/react-router-restore-scroll",
   "version": "0.0.5",
   "description": "Scroll positions restoration for React Router",
   "main": "lib/index.js",
